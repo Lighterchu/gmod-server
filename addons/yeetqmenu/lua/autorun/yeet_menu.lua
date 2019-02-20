@@ -30,6 +30,7 @@ if(CLIENT) then
 	spawnmenu.AddCreationTab( newtabname, function()
 
 			local test = print()
+			local something = "lol"
 
 			AdminMenu = vgui.Create( "DHTML" );
 			JS_Language( AdminMenu )
